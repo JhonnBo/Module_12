@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="01. Reading Text File %28ReadLine%29.cs" />
+    <Compile Remove="02. Reading Text File %28ReadToEnd%29.cs" />
+    <Compile Remove="03 - Reading Text File %28Read Peek%29.cs" />
+    <Compile Remove="04 - Write To Text File %28WriteLine%29.cs" />
+    <Compile Remove="05 - Write To Text File Char Array %28WriteLine%29.cs" />
+    <Compile Remove="06 - Copy Of Bin File.cs" />
+    <Compile Remove="07 - Save Standart Types In Bin File.cs" />
+    <Compile Remove="08 - Redirect Stream %28Console.In%29.cs" />
+    <Compile Remove="09 - Redirect Stream %28Console.Out%29.cs" />
+    <Compile Remove="10 - Random File Acsess.cs" />
+    <Compile Remove="11. StringReader and StringWriter.cs" />
+    <Compile Remove="12 - Directory 1.cs" />
+    <Compile Remove="13 - Directory 2.cs" />
+    <Compile Remove="15. SubDirectory Text File.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="01. Reading Text File (ReadLine).cs" />
+    <None Include="02. Reading Text File (ReadToEnd).cs" />
+    <None Include="03 - Reading Text File (Read Peek).cs" />
+    <None Include="04 - Write To Text File (WriteLine).cs" />
+    <None Include="05 - Write To Text File Char Array (WriteLine).cs" />
+    <None Include="07 - Save Standart Types In Bin File.cs" />
+    <None Include="06 - Copy Of Bin File.cs" />
+    <None Include="08 - Redirect Stream (Console.In).cs" />
+    <None Include="09 - Redirect Stream (Console.Out).cs" />
+    <None Include="10 - Random File Acsess.cs" />
+    <None Include="11. StringReader and StringWriter.cs" />
+    <None Include="12 - Directory 1.cs" />
+    <None Include="13 - Directory 2.cs" />
+    <None Include="15. SubDirectory Text File.cs" />
+  </ItemGroup>
+
+</Project>

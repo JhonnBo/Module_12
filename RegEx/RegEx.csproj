@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Ex_1.cs" />
+    <Compile Remove="Ex_2.cs" />
+    <Compile Remove="Ex_4.cs" />
+    <Compile Remove="Ex_5.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Ex_1.cs" />
+    <None Include="Ex_2.cs" />
+    <None Include="Ex_4.cs" />
+    <None Include="Ex_5.cs" />
+  </ItemGroup>
+
+</Project>
